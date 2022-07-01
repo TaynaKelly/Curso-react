@@ -1,0 +1,23 @@
+import alunos from "../../data/alunos"
+
+const ListaAlunos = (props) => {
+
+    const lista = alunos.map((aluno) => {
+        return (
+            <li key={aluno.id}>
+                {`${aluno.id}.${aluno.nome} -> ${aluno.nota}`}
+            </li>
+        )
+    })
+
+    return (
+        <div>
+            <h2>Repetição</h2>
+            <ul style={{listStyle:"none" }}>
+                {lista}
+            </ul>
+        </div>
+    )
+}
+
+export default ListaAlunos;

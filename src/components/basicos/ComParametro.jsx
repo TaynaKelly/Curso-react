@@ -1,4 +1,4 @@
-export default function ComParametro(props) {
+ const ComParametro = (props) => {
     const status = props.nota >= 7 ? 'Aprovado' : 'Recuperação'
     const nota = Math.ceil(props.nota)
     return <div>
@@ -12,3 +12,5 @@ export default function ComParametro(props) {
         </p>
     </div>
 }
+
+export default ComParametro

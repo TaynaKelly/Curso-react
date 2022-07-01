@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Primeiro() {
+const Primeiro = () => {
     const msg = 'Seja bem vindo!'
     return (
         <div>
@@ -9,3 +9,5 @@ export default function Primeiro() {
         </div>
     )
 }
+
+export default Primeiro;

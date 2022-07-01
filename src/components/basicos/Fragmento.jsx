@@ -1,4 +1,4 @@
-export default function Fragmento(props) {
+ const Fragmento = (props) => {
     return (
         <>
             <h2>Fragmento</h2>
@@ -6,3 +6,6 @@ export default function Fragmento(props) {
         </>
     )
 }
+
+export default Fragmento;
+
